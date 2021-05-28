@@ -6,3 +6,13 @@ def badge_maker(name)
   puts"Hello, my name is#{name}."
 
 end
+
+def batch_badge_creator(names)
+  tagmsg = Array.new
+  names.each do |msg|
+
+
+
+
+
+end
