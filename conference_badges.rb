@@ -14,3 +14,5 @@ def batch_badge_creator(names)
   end
 return tagemsg
 end
+
+batch_badge_creator(names)
