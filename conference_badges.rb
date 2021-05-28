@@ -18,7 +18,7 @@ end
 
 def assign_rooms(names)
  names.each do |name|
-  roomnum = names.index(namemsg) + 1
+  roomnum = names.index(name) + 1
   "Hello, #{namemsg}"
   end
 end
