@@ -3,7 +3,7 @@ names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 
 def badge_maker(name)
-  puts"Hello, my name is#{name}."
+  return "Hello, my name is#{name}."
 
 end
 
@@ -15,4 +15,10 @@ def batch_badge_creator(names)
   return tagmsg
 end
 
+
+def assign_rooms(msgarys)
+ msgarys.each do |tagmsg|
+  roomnum = msgarys.index(tagmsg) + 1
+  ""
+end
 # print batch_badge_creator(names)
