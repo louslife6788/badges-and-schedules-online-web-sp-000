@@ -25,6 +25,6 @@ def assign_rooms(names)
 end
 # print batch_badge_creator(names)
 x = luminaries
-y = leon 
+y = leon
 
 puts "#{x} loves the #{y}"
