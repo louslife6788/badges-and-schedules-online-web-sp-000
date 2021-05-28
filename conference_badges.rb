@@ -19,8 +19,7 @@ end
 def assign_rooms(names)
   welcome_ary = Array.new
     names.each do |name|
-      msg = name.pop
-      room = names.index(msg)
+      room = names.index(name)
       welcome_ary << "Hello, #{msg}! you'll be assingned to room #{room}!"
   end
 end
