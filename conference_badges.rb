@@ -10,7 +10,7 @@ end
 def batch_badge_creator(names)
   tagmsg = Array.new
   names.each do |msg|
-      tagmsg << "Hello, my name is #{msg}"
+      tagmsg << "Hello, my name is #{msg}."
   end
   return tagmsg
 end
