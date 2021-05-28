@@ -19,6 +19,7 @@ end
 def assign_rooms(names)
   welcome_ary = Array.new
     names.each do |name|
+      names.index(name)
 
   end
 end
