@@ -20,5 +20,6 @@ def assign_rooms(msgarys)
  msgarys.each do |tagmsg|
   roomnum = msgarys.index(tagmsg) + 1
   ""
+  end
 end
 # print batch_badge_creator(names)
