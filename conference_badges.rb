@@ -1,6 +1,6 @@
 # Write your code here.
 
-
+names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(name)
   return "Hello, my name is #{name}."
@@ -15,7 +15,7 @@ def batch_badge_creator(names)
    return tagmsg
 end
 
-names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
 def assign_rooms(names)
   welcome_ary = Array.new
     names.each do |name|
