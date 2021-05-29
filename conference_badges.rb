@@ -22,3 +22,7 @@ def assign_rooms(names)
   end
   return welcome_ary
 end
+
+def printer(names)
+
+end
