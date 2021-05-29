@@ -19,7 +19,7 @@ names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def assign_rooms(names)
   welcome_ary = Array.new
     names.each do |name|
-        num = names.index(name)
+        num = names.index(name) + 1 
         puts "#{name} :: index #{num}"
 
   end
