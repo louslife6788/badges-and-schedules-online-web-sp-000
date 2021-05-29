@@ -19,7 +19,8 @@ end
 def assign_rooms(names)
   welcome_ary = Array.new
     names.each do |name|
-      names.index(name)
+        num = names.index(name)
+        print "#{name} :: index#{num}"
 
   end
 end
