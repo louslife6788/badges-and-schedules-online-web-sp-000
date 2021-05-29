@@ -20,9 +20,8 @@ def assign_rooms(names)
   welcome_ary = Array.new
     names.each do |name|
         num = names.index(name) + 1
-        puts "Hello, #{name} you'll be assigned to room #{num}"
+        puts "Hello, #{name}! you'll be assigned to room #{num}!"
 
   end
 end
-# print batch_badge_creator(names)
-assign_rooms(names)
+
