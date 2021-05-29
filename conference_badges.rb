@@ -20,7 +20,6 @@ def assign_rooms(names)
     names.each do |name|
         num = names.index(name) + 1
         welcome_ary << "Hello, #{name}! You'll be assigned to room #{num}!"
-
   end
   return welcome_ary
 end
