@@ -14,7 +14,6 @@ def batch_badge_creator(names)
   return tagmsg
 end
 
-
 def assign_rooms(names)
   welcome_ary = Array.new
     names.each do |name|
