@@ -12,7 +12,7 @@ def batch_badge_creator(names)
   names.each do |msg|
       tagmsg << "Hello, my name is #{msg}."
   end
-   return tagmsg
+  return tagmsg
 end
 
 
